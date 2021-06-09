@@ -1,4 +1,4 @@
-package com.admarketplace.codechallenge.service.calendar;
+package com.admarketplace.codechallenge.client.service.calendar;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
-package com.admarketplace.codechallenge.controller;
+package com.admarketplace.codechallenge.client.controller;
 
-import com.admarketplace.codechallenge.service.calendar.CalendarRequestCounter;
+import com.admarketplace.codechallenge.client.service.calendar.CalendarRequestCounter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

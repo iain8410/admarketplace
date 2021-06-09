@@ -1,4 +1,4 @@
-package com.admarketplace.codechallenge.service.sliding;
+package com.admarketplace.codechallenge.client.service.sliding;
 
 public interface SlidingWindowRequestCounterService {
 

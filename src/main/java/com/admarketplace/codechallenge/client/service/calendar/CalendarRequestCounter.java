@@ -1,4 +1,4 @@
-package com.admarketplace.codechallenge.service.calendar;
+package com.admarketplace.codechallenge.client.service.calendar;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

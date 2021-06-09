@@ -1,6 +1,5 @@
-package com.admarketplace.codechallenge.service.sliding;
+package com.admarketplace.codechallenge.client.service.sliding;
 
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

@@ -1,6 +1,5 @@
-package com.admarketplace.codechallenge.service.sliding;
+package com.admarketplace.codechallenge.client.service.sliding;
 
-import com.admarketplace.codechallenge.service.sliding.SlidingMinuteCounter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
