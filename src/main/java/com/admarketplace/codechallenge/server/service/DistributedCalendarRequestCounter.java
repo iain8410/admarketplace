@@ -14,7 +14,6 @@ public class DistributedCalendarRequestCounter implements DistributedRequestCoun
 
 	public static long MAX_REQUESTS = 100;
 
-	private final MinuteCounter minuteCounter;
 	private final RedisCacheQuery redisCacheQuery;
 
 	@Override
@@ -24,7 +23,7 @@ public class DistributedCalendarRequestCounter implements DistributedRequestCoun
 		long calMinute = getMinute(calendarStartTime);
 		long reqMinute = getMinute(requestDate);
 
-		// minuteCounter.addToCounter();
+		redisCacheQuery.addNumberRequests();
 
 		System.out.println("cal start:" + calendarStartTime + " req minute:" + reqMinute);
 		if ( numRequests > MAX_REQUESTS && calMinute == reqMinute){
