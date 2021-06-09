@@ -31,4 +31,11 @@ public class RedisCacheQuery implements CacheQuery {
 		// ValueOperations values = redisTemplate.opsForValue();
 		// values.set("numRequests", (getNumberRequests() + 1));
 	}
+
+	@Override
+	public void reset() {
+		// ValueOperations values = redisTemplate.opsForValue();
+		// values.set("numRequests", 0L);
+		// values.set("calendarStartTime", new Date());
+	}
 }

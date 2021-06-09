@@ -8,4 +8,5 @@ public interface CacheQuery {
 	Date findRequestStartTime();
 	long getNumberRequests();
 	void addNumberRequests();
+	void reset();
 }
